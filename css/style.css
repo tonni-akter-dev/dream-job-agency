@@ -184,6 +184,9 @@
 }
 
 @media (max-width: 768px) {
+    .how_it_works{
+        width: 100%;
+    }
     .banner_text {
         padding-left: 20px !important;
     }
@@ -486,3 +489,7 @@
     float: left;
 }
 /* footer logos */
+.how_it_works{
+    max-width: 440px;
+    width: 100%;
+}
