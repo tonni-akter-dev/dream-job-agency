@@ -62,6 +62,23 @@
         dots: false,
         loop: true,
         nav: false,
+        responsive: {
+            0: {         
+                items: 3
+            },
+            576: {        
+                items: 3
+            },
+            768: {   
+                items: 5
+            },
+            992: {       
+                items: 7
+            },
+            1200: { 
+                items: 6
+            }
+        }
     });
 
     // Testimonials carousel
