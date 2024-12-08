@@ -358,7 +358,44 @@
     border-color: var(--primary);
 }
 
+/* footer banner start */
+.hero-section {
+    background-color: #007CAD;
+    color: white !important;
+    padding: 60px 15px;
+    position: relative;
+}
 
+.highlight::before {
+    content: '';
+    position: absolute;
+    top: 41%;
+    left: 31%;
+    right: 0;
+    bottom: 0;
+    background-image: url(https://www.flexjobs.com/blobcontent/flexjobs/images/btm-pttrn-big.svg);
+    opacity: 1;
+    z-index: 0;
+    background-repeat: no-repeat;
+}
+
+.hero-section .container {
+    z-index: 1;
+    position: relative;
+}
+
+.hero-title {
+    font-size: 2.2rem;
+    line-height: 1.5;
+    font-weight: 600;
+}
+
+.hero-title .highlight {
+    color: orange;
+    /* Yellow for emphasis */
+}
+
+/* footer banner start */
 /*** Footer ***/
 .footer .btn.btn-social {
     margin-right: 5px;
@@ -427,3 +464,25 @@
     padding-right: 0;
     border-right: none;
 }
+
+/* footer logos */
+ .star--normal {
+    height: 1em !important;
+    line-height: 1em !important;
+    margin-right: .1111111111em !important;
+    min-width: 1em !important;
+    width: 1em !important;
+}
+ .star {
+    color: #fff !important;
+    height: 1em !important;
+    line-height: 1em !important;
+    margin-right: .1111111111em !important;
+    min-width: 1em !important;
+    position: relative;
+    text-align: center;
+    transform: translateY(0) !important;
+    width: 1em !important;
+    float: left;
+}
+/* footer logos */
