@@ -57,7 +57,7 @@
     $('.company-carousel').owlCarousel({
         margin: 20,
         autoplay: true,
-        smartSpeed: 1000,
+        autoplayTimeout:1000,
         items: 7,
         dots: false,
         loop: true,
@@ -73,10 +73,10 @@
                 items: 5
             },
             992: {       
-                items: 7
+                items: 6
             },
             1200: { 
-                items: 6
+                items: 7
             }
         }
     });
